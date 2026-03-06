@@ -1,0 +1,167 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.logo-image{
+    height:120px;
+    border-radius:75px;
+}
+
+body {
+  background-image:url('background.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+  
+}
+
+.logo span {
+  color: #f4c430;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav a:hover{
+    text-decoration-line: underline;
+}
+nav span{
+    color:#f4c430
+}
+.head-text {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  
+ 
+}
+.home-content{
+    text-align:center;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 5px rgb(255, 255, 0);
+    padding-top:40vh;
+    font-size:60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.info{
+  background: #f2f2f2;
+    width: 60%;
+    margin: 40px auto;
+    margin-top:200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.info-text p{
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-size: 18px;
+
+}
+.info-text{
+  text-align:center;
+}
+.info-text h2{
+  background:#e6c8b0;
+}
+.info ol{
+    text-align:left;      
+    list-style-position:outside;  
+    padding: 0;
+    margin-left:400px;
+   
+
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #f4c430;
+    
+}
+footer p{
+    color: #f4c430;
+}
+.social{
+    font-weight:bold;
+    font-size:15px;
+    text-decoration:underline;
+    color:wheat;
+}
+.hobby{
+    background: #f2f2f2;
+    width: 60%;
+    margin: auto;
+    margin-top:200px;
+    padding: 30px;
+    border-radius: 10px;
+}
+table {
+    padding:100px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    
+    background-color: #e6c8b0;
+    padding: 10px;
+}
+
+td {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    font-size:20px;
+}
+.hobby-img {
+    width: 190px;
+}
+.daily-cover{
+  background:#f2f2f2;
+  
+  margin-top:200px;
+  margin-left:350px;
+  margin-right:350px;
+  border-radius: 10px;
+}
+.daily-text ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px 80px; 
+    list-style-type: disc;
+    font-size: 22px;
+    padding-left: 40px;
+}
+.daily-text{
+  line-height: 1.6;
+}
+.daily-text h2{
+  background-color:#e6c8b0;
+  text-align: center;
+  border-radius: 10px;
+}
